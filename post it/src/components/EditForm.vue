@@ -55,7 +55,7 @@ function editPost() {
 
 .form {
     display: flex;
-    background-color: #0a2b4929;
+    background-color: white;
     min-width: 320px;
     align-items: center;
     min-height: 300px;
@@ -80,7 +80,7 @@ function editPost() {
     background-color: unset;
     font-size: 1.2em;
     border: 1.7px #41b88333 solid;
-    color: white;
+    color: black;
     border-radius: 6px;
     width: 90%;
 }
@@ -92,7 +92,7 @@ function editPost() {
     background-color: unset;
     font-size: 1.2em;
     border: 1.7px #41b88333 solid;
-    color: white;
+    color: black;
     border-radius: 6px;
     width: 90%;
     max-width: 90%;
