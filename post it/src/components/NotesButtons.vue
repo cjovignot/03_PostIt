@@ -36,10 +36,6 @@ let id = window.location.pathname.split('/')[2];
 function goToEdit() {
     window.location.href = '/edit/'+id;
 }
-
-
-
-
 </script>
 
 <template>

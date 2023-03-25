@@ -1,6 +1,7 @@
 <script setup>
 import {ref} from 'vue';
 import BackButton from "../components/BackButton.vue"
+// import NotesButton from "../components/NotesButton.vue"
 
 let id = window.location.pathname.split('/')[2];
 let url = "http://mattmcm.fr:7754/note/" + id;
@@ -37,8 +38,9 @@ function editPost() {
 
 </script>
 
-<template>
-    <div class="form">
+<!-- <template> -->
+    <!-- <button v-on:click="goToEdit" action="submit">Edit</button> -->
+    <!-- <div @eventName="eventHandler" class="form">
         <div class="inputs">
             <h3 class="label">Post-it Edition</h3>
             <input name="title" type="text" v-model="posts.title" placeholder="Post-it Title">
@@ -48,8 +50,8 @@ function editPost() {
             <BackButton />
             <button v-on:click="editPost" action="submit">Submit</button>
         </div>
-    </div>
-</template>
+    </div> -->
+<!-- </template> -->
 
 <style scoped>
 

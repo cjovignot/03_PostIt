@@ -12,25 +12,25 @@ function goBack() {
 </script>
 
 <template>
-        <button v-on:click="goBack" action="submit">Back</button>
+        <button v-on:click="goBack" action="submit"></button>
 </template>
 
 <style scoped>
     button {
-        align-self: baseline;
         font-size: 1.2em;
         background-color: unset;
-        width: 100px;
+        width: 40px;
+        margin: auto;
+        height: 40px;
         color: #41b883;
-        height: 30px;
-        border-radius: 30px;
+        background-size: 100%;
+        border: 0;
         transition: 0.3s;
         cursor: pointer;
+        background-image: url(../public/home.png);
     }
     button:hover {
-        border: 2px #41b883 solid;
-        background-color: unset;
         transition: 0.3s;
-        color: #41b883;
+        transform: scale(1.15);
     }
 </style>

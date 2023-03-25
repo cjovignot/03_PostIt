@@ -71,7 +71,7 @@ function createPost() {
     background-color: unset;
     font-size: 1.2em;
     border: 1.7px #41b88333 solid;
-    color: white;
+    color: black;
     border-radius: 6px;
     width: 90%;
 }
@@ -83,7 +83,7 @@ function createPost() {
     background-color: unset;
     font-size: 1.2em;
     border: 1.7px #41b88333 solid;
-    color: white;
+    color: black;
     border-radius: 6px;
     width: 90%;
     max-width: 90%;

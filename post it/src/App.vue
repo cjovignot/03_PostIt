@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <a href="/"><img alt="Vue logo" class="logo" src="../favicon.ico" width="160" height="160" /></a>
+    <a href="/" class="logo"></a>
 
     <div class="wrapper">
       <HelloWorld msg="Wankers by Epitech presents" />
@@ -30,12 +30,15 @@ header {
 }
 
 .logo {
+  height: 160px;
+  width: 160px;
   display: block;
+  background-image: url(../favicon.ico);
+  background-size: 100%;
   transition: 0.2s;
 }
 .logo:hover {
   transition: 0.2s;
-  width: 100%;
   animation: rotation 1.5s;
 }
 @keyframes rotation {
@@ -49,24 +52,6 @@ header {
 .logo:active {
   transform: scale(0.95);
   transition: 0.2s;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
 }
   
 @media all and (max-device-width: 480px) {

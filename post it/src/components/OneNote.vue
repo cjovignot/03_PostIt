@@ -28,7 +28,6 @@ defineProps({
   </a>
 </template>
 
-
 <style scoped>
 .item {
   display: flex;

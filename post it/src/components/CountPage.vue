@@ -38,10 +38,12 @@ fetch(url)
 }
 button {
     margin: 0 5px;
-    font-size: 1.2em;
+    font-size: 1.8em;
+    font-family: Indie Flower;
+    font-weight: bold;
     background-color: unset;
     width: 40px;
-    color: #41b883;
+    color: black;
     height: 40px;
     border-radius: 40px;
     transition: 0.3s;
